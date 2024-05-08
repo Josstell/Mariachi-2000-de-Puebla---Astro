@@ -5,36 +5,46 @@ import { Hero } from "@modules/Hero";
 ---
 
 <Layout
-    title="Cybernetic | Homepage"
-    description="YOUR META DESCRIPTION FOR SEO"
+  title="Marichi 2000 de Puebla | Inicio"
+  description="Servicio las 24 horas los 365 días del año"
 >
-    <main class="page-content">
-        <Hero
-            client:load
-            heroType="fullPageSlider"
-            data={[
-                {
-                    subtitle: "Cybernetic",
-                    title: "Cybernetic",
-                    background: HeroSlider1.src,
-                    paragraph:
-                        "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-                    button: {
-                        text: "Get pro version",
-                        link: "https://codexcode.store/themes/cybernetic-website-template",
-                    },
-                },
-                {
-                    subtitle: "Be Safe, Be Secure, Be Cybernetic",
-                    title: "infinite",
-                    background: HeroSlider3.src,
-                    paragraph: "",
-                    button: {
-                        text: "Take a look",
-                        link: "/infinite",
-                    },
-                },
-            ]}
-        />
-    </main>
+  <main class="page-content">
+    <Hero
+      client:load
+      heroType="fullPageSlider"
+      data={[
+        {
+          subtitle: "Mariachi 2000 de Puebla",
+          title: "Servicios",
+          background: HeroSlider1.src,
+          paragraph:
+            "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          button: {
+            text: "Informes",
+            link: "https://codexcode.store/themes/cybernetic-website-template",
+          },
+        },
+        {
+          subtitle: "Mariachi 2000 de Puebla",
+          title: "Fotos",
+          background: HeroSlider3.src,
+          paragraph: "",
+          button: {
+            text: "Informes",
+            link: "/infinite",
+          },
+        },
+        {
+          subtitle: "Mariachi 2000 de Puebla",
+          title: "Videos",
+          background: HeroSlider3.src,
+          paragraph: "",
+          button: {
+            text: "Informes",
+            link: "/infinite",
+          },
+        },
+      ]}
+    />
+  </main>
 </Layout>

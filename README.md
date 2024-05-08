@@ -14,9 +14,9 @@ use https://tinypng.com/ to reduce you'r images
 
 There are 3 folders
 
--   fonts
--   images
--   icons
+- fonts
+- images
+- icons
 
 every of those folders have index.ts where you can find import / export files + for images and icons, we create special components
 
@@ -99,9 +99,8 @@ All colors are used as css var to have easier access in app
 
 ## 📞🧞 Contact & Support
 
-If you bought our paid theme, you get 100% our support!
-have any problems or questions, please let us know here: [Contact Form](https://codexcode.store/contact)
+
 
 ## 🧞 Authors
 
--   [@codexcode](https://codexcode.store)
+- [@mariachon](https://mariachon.com.mx)

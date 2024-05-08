@@ -11,11 +11,11 @@ import { Image } from "@static/images";
  * <Image src="logo-dark" alt="logo" data-theme-el="dark" />
  */
 export const Logo: FC = () => {
-    return (
-        <S.LogoStyled>
-            <a href="/">
-                <Image srcLocal="logo" alt="logo" />
-            </a>
-        </S.LogoStyled>
-    );
+  return (
+    <S.LogoStyled>
+      <a href="/">
+        <Image srcLocal="logo" alt="logo" />
+      </a>
+    </S.LogoStyled>
+  );
 };
