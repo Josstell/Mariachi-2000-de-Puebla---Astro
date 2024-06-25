@@ -5,17 +5,17 @@ import { Container } from "@components/Container";
 import { Socials } from "@components/Socials";
 
 export const Footer: FC = () => {
-    return (
-        <S.FooterStyled>
-            <Container>
-                <S.FooterContainer>
-                    <Logo />
-                    <S.FooterContent>
-                        <p>© 2024 All rights reserved by codexcode.pl</p>
-                    </S.FooterContent>
-                </S.FooterContainer>
-                <Socials />
-            </Container>
-        </S.FooterStyled>
-    );
+  return (
+    <S.FooterStyled>
+      <Container>
+        <S.FooterContainer>
+          <Logo />
+          <S.FooterContent>
+            <p>© 2024 All rights reserved by Mariachon</p>
+          </S.FooterContent>
+        </S.FooterContainer>
+        <Socials />
+      </Container>
+    </S.FooterStyled>
+  );
 };
