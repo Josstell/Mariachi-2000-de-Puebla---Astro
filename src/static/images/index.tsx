@@ -4,11 +4,15 @@ import HeroImg from "./hero-img.webp";
 import Logo from "./logo.webp";
 
 import HeroSlider1 from "./Mariachi2000depuebla.jpg";
-import HeroSlider2 from "./Mariachipuebla.jpg";
+import NosostrosImg from "./Mariachipuebla.jpg";
 import HeroSlider3 from "./Mariachisenpuebla.jpg";
 
 import InfiniteImg1 from "./infinite-img-1.webp";
 import InfiniteImg2 from "./infinite-img-2.webp";
+import InfiniteCumple from "./cumpleaños.jpeg";
+import InfiniteSerenata from "./serenatas.jpeg";
+
+import ServiciosImg from "./graduacion.jpeg";
 
 export const images = {
   preview: PreviewPng,
@@ -66,8 +70,11 @@ export const Image: FC<ImageProps> = ({
 export {
   PreviewPng,
   HeroSlider1,
-  HeroSlider2,
+  NosostrosImg,
   HeroSlider3,
   InfiniteImg1,
   InfiniteImg2,
+  InfiniteCumple,
+  InfiniteSerenata,
+  ServiciosImg,
 };

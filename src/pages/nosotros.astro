@@ -1,7 +1,11 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { Hero } from "@modules/Hero";
-import { HeroSlider3, InfiniteImg1, InfiniteImg2 } from "@static/images";
+import {
+  InfiniteImg1,
+  InfiniteImg2,
+  NosostrosImg,
+} from "@static/images";
 import { ServiceCards } from "@modules/ServiceCards";
 import { Footer } from "@modules/Footer";
 ---
@@ -12,7 +16,7 @@ import { Footer } from "@modules/Footer";
       heroType="ParallaxImage"
       client:visible
       data={{
-        image: HeroSlider3.src,
+        image: NosostrosImg.src,
         content: {
           title: "Somos",
           paragraph:

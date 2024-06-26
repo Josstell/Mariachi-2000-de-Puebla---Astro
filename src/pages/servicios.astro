@@ -1,7 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
 import { Hero } from "@modules/Hero";
-import { HeroSlider3, InfiniteImg1, InfiniteImg2 } from "@static/images";
+import {
+  HeroSlider3,
+  InfiniteImg1,
+  InfiniteCumple,
+  InfiniteSerenata,
+  InfiniteImg2,
+  ServiciosImg,
+} from "@static/images";
 import { ServiceCards } from "@modules/ServiceCards";
 import { Footer } from "@modules/Footer";
 ---
@@ -12,7 +19,7 @@ import { Footer } from "@modules/Footer";
       heroType="ParallaxImage"
       client:visible
       data={{
-        image: HeroSlider3.src,
+        image: ServiciosImg.src,
         content: {
           title: "SERVICIOS",
           paragraph:
@@ -21,34 +28,34 @@ import { Footer } from "@modules/Footer";
       }}
     />
     <ServiceCards
-      description="SERVICES"
-      title="The Service We Provide For You"
+      description="SERVICIOS"
+      title="Te ofrecemos los siguientes servicios:"
       client:visible
       cards={[
         {
-          title: "Cyber - development",
-          description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+          title: "Por hora",
+          description: "Alreddor de 10-12 canciones por cada hora de servicio.",
         },
         {
-          title: "Cyber - Security",
-          description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+          title: "Serenata",
+          description: "Consta de 7 canciones.",
         },
         {
-          title: "Cyber - Marketing",
-          description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+          title: "Contrato",
+          description: "Contratos por 5 horas o más pueden ser agendados.",
         },
-        {
-          title: "Cyber - Development",
-          description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
-        },
-        {
-          title: "Cyber - Security",
-          description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
-        },
-        {
-          title: "Cyber - Marketing",
-          description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
-        },
+        // {
+        //   title: "Cyber - Development",
+        //   description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+        // },
+        // {
+        //   title: "Cyber - Security",
+        //   description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+        // },
+        // {
+        //   title: "Cyber - Marketing",
+        //   description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+        // },
       ]}
     />
 
@@ -57,14 +64,14 @@ import { Footer } from "@modules/Footer";
       client:visible
       data={{
         image: {
-          src: InfiniteImg1.src,
+          src: InfiniteCumple.src,
           width: 590,
           height: 300,
-          alt: "Hero Image",
+          alt: "Cumple Image",
         },
-        title: "Lets make you Infinite!",
+        title: "¡Vamos a disfrutar de un buen momento!",
         paragraph:
-          "Become a part of the Infinite community and start sharing your thoughts, ideas, and experiences with like-minded people.",
+          "Te brindamos la mejor experiencia y el mejor regalo inolvidable que puedes llevar a una pachanga.",
       }}
     />
     <Hero
@@ -73,14 +80,14 @@ import { Footer } from "@modules/Footer";
       data={{
         switchPlaces: true,
         image: {
-          src: InfiniteImg2.src,
+          src: InfiniteSerenata.src,
           width: 590,
           height: 300,
-          alt: "Hero Image",
+          alt: "Serenata Image",
         },
-        title: "Infinite Community",
+        title: "¡Enamorala con el mejor detalle!",
         paragraph:
-          "with infinite dashboard you can easily manage your community, create posts, and interact with your followers.",
+          "Sorprende a la persona más importante de tu vida o tus seres queridos acompañado con las serenatas del Mariachi.",
       }}
     />
   </main>
