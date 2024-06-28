@@ -2,9 +2,11 @@
 import Layout from "../layouts/Layout.astro";
 import { Hero } from "@modules/Hero";
 import {
-  InfiniteImg1,
-  InfiniteImg2,
   NosostrosImg,
+  ImageHistoria1,
+  ImageHistoria2,
+  ImageHistoria3,
+  Mariotell,
 } from "@static/images";
 import { ServiceCards } from "@modules/ServiceCards";
 import { Footer } from "@modules/Footer";
@@ -25,33 +27,24 @@ import { Footer } from "@modules/Footer";
       }}
     />
     <ServiceCards
-      description="SERVICES"
-      title="The Service We Provide For You"
+      description=" "
+      title="Valores"
       client:visible
       cards={[
         {
-          title: "Cyber - development",
-          description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+          title: "Honestidad",
+          description:
+            "Denota sinceridad y correspondencia entre lo que hacemos, lo que pensamos y como actuamos ante cliente y compañeros de trabajo.",
         },
         {
-          title: "Cyber - Security",
-          description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+          title: "Responsabilidad",
+          description:
+            "Es nuestra capacidad de responder satisfactoriamente a las peticiones y obligaciones contraídas por la agrupación siendo puntuales y disciplinados para el beneficio de nuestros clientes.",
         },
         {
-          title: "Cyber - Marketing",
-          description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
-        },
-        {
-          title: "Cyber - Development",
-          description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
-        },
-        {
-          title: "Cyber - Security",
-          description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
-        },
-        {
-          title: "Cyber - Marketing",
-          description: "lorem ipsum lorem ipsum lorem ipsum lorem ipsum .",
+          title: "Profesionalismo",
+          description:
+            "Es nuestra seriedad, constancia, entrega, dedicación y esmero que tiene la agrupación para con sus clientes. Nuestros principios hacen del Mariachi 2000 de Puebla una opción muy atractiva para clientes que requieren nuestros servicios diseñados para ambientar todo tipo de eventos sociales.",
         },
       ]}
     />
@@ -61,14 +54,14 @@ import { Footer } from "@modules/Footer";
       client:visible
       data={{
         image: {
-          src: InfiniteImg1.src,
+          src: ImageHistoria1.src,
           width: 590,
           height: 300,
           alt: "Hero Image",
         },
-        title: "Lets make you Infinite!",
+        title: "Mariachi 2000 de Puebla",
         paragraph:
-          "Become a part of the Infinite community and start sharing your thoughts, ideas, and experiences with like-minded people.",
+          "Somos una agrupación, fundado en los años 60´s en la ciudad de Puebla por el señor Genaro Téllez Osorio originario del municipio de San Juan Tianguismanalco, teniendo como nombre El MARIACHI LOS CHARROS DE PUEBLA, incorporándose en la Unión de Músicos y Trovadores de la muy conocida Plaza de los Sapos ubicado en el centro Histórico de Puebla. Posteriormente en el año 1975 por iniciativa de nuestro buen querido amigo Apolinar Chávez y Mario Téllez Morales tomamos el nombre de MARIACHI 2000 DE PUEBLA. En 1991 toma la representación el señor Román Téllez Osorio, como director estratégico el señor Mario Tellez Morales y coordinador de grupo Ricardo Téllez Morales. Posteriormente se integra al grupo otro hermano el señor Timoteo Téllez Morales como coordinador musical.",
       }}
     />
     <Hero
@@ -77,14 +70,45 @@ import { Footer } from "@modules/Footer";
       data={{
         switchPlaces: true,
         image: {
-          src: InfiniteImg2.src,
+          src: ImageHistoria2.src,
           width: 590,
           height: 300,
           alt: "Hero Image",
         },
-        title: "Infinite Community",
+        title: "",
         paragraph:
-          "with infinite dashboard you can easily manage your community, create posts, and interact with your followers.",
+          "Actualmente el Mariachi 2000 de Puebla ocupa un lugar entre los mejores y más reconocidos mariachis de la ciudad, sus oficinas se encuentran ubicadas en la Plaza de los Sapos del centro histórico de la ciudad de Puebla cuyos integrantes son: Ricardo Téllez, Timoteo Téllez Morales, Enrique Garcia, Claudio Melendez, Enrique Muñoz, Carlos, entre otros… con más de 50 años de experiencia, que le ofrece lo mejor de la música folklórica mexicana para ambientar reuniones, fiestas y eventos especiales. Coordinador general Ricardo Téllez Morales y coordinador de grupo Timoteo Téllez Morales.",
+      }}
+    />
+    <Hero
+      heroType="textImage"
+      client:visible
+      data={{
+        image: {
+          src: ImageHistoria3.src,
+          width: 590,
+          height: 300,
+          alt: "Hero Image",
+        },
+        title: "",
+        paragraph:
+          "El Mariachi 2000 de Puebla se distingue por complacer y consentir a sus clientes interpretando las canciones del agradado de cada uno de ellos. Desde eventos familiares, empresariales y culturales estamos para amenizar y ambientar las fiestas. Entre nuestros clientes se encuentran VOLKS WAGEN, AUDI, BENTELER, CREATIV, JHONSON CONTROL, HOTEL (MARRIOT, CAMINO REAL, PRESIDENTE, POSADA SEÑORIAL), LA VISTA GOL COUNTRY, UPAEP, IEU, UNIVERSIDAD TECNOLOGICA DE PUEBLA, COLEGIO HUMBOLDT, INSTITUTO MEXICANO MADERO, entre otros.",
+      }}
+    />
+    <Hero
+      heroType="textImage"
+      client:visible
+      data={{
+        switchPlaces: true,
+        image: {
+          src: Mariotell.src,
+          width: 590,
+          height: 300,
+          alt: "Hero Image",
+        },
+        title: "",
+        paragraph:
+          "El señor Mario Téllez Morales gestionó 45 años el proyecto Mariachi 2000 de Puebla. Desde sus inicios como músico tuvo la responsabilidad de llevar adelante la agrupación con un propósito productivo para sus colaboradores y llevar entretenimiento musical al gusto de sus clientes. Por iniciativa del señor Mario Téllez Morales se logró que la agrupación diera un cambio en la gestión administrativa, dando un profesionalismo en el servicio, adaptándose a las nuevos cambios tecnológicos, creando nuevos proyectos en portales como Mariachi Angeles de Puebla, Mariachi Angelópolis y una nueva agencia de entretenimiento y publicidad fue lanzado en el año 2020.",
       }}
     />
   </main>

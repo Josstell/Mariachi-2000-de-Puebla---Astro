@@ -14,6 +14,11 @@ import InfiniteSerenata from "./serenatas.jpeg";
 
 import ServiciosImg from "./graduacion.jpeg";
 
+import ImageHistoria1 from "./imgHistoria1.png";
+import ImageHistoria2 from "./imgHistoria2.png";
+import ImageHistoria3 from "./imgHistoria3.png";
+import Mariotell from "./mariotell.png";
+
 export const images = {
   preview: PreviewPng,
   heroImg: HeroImg,
@@ -77,4 +82,8 @@ export {
   InfiniteCumple,
   InfiniteSerenata,
   ServiciosImg,
+  ImageHistoria1,
+  ImageHistoria2,
+  ImageHistoria3,
+  Mariotell,
 };
